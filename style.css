@@ -53,10 +53,6 @@ body {
 
 }
 
-.img {
-    margin: auto;
-}
-
 .flip-image {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -72,4 +68,29 @@ body {
 
 .btn {
     background: #cb55e6;
+}
+
+.img-div{
+    display: flex;
+    justify-content: center;
+}
+.img {
+    width: 150px;
+    object-fit: contain;
+}
+
+.contact {
+    margin: 5rem auto;
+    max-width: 600px;
+}
+
+.byol {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
 }
